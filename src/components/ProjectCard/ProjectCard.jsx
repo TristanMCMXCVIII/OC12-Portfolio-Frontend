@@ -22,11 +22,6 @@ const ProjectCard = ({project}) => {
                     <div className="project-card__details">
                         <p>Détails</p>
                     </div>
-                    {project.github && 
-                        <div className="project-card__online">
-                            Site en ligne
-                        </div>
-                    }
                 </div>
         </Link>
     )
